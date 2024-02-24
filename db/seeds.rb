@@ -12,15 +12,17 @@ User.destroy_all
 
 puts "creating user"
 user = User.create!(
-  nom: "Santoni",
-  prénom: "Paul-François",
-  EDE: "02AANE" ,
-  email: "santoni.audrey@gmail.com",
-  password: "123456",
-  adresse: "53 route de curratoghja",
-  code_postal: 20113,
-  ville: "Olmeto"
+  nom: "NOM",
+  prénom: "Prénom",
+  EDE: "01AAAA" ,
+  email: "admin@email.com",
+  password: "admin",
+  adresse: "1 rue de la rue",
+  code_postal: 10000,
+  ville: "Ville"
 )
+
+puts "created user #{user.nom} "
 
 puts "Creating porcs..."
 
