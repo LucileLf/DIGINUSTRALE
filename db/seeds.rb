@@ -16,7 +16,7 @@ user = User.create!(
   prénom: "Prénom",
   EDE: "01AAAA" ,
   email: "admin@email.com",
-  password: "admin",
+  password: "admin123",
   adresse: "1 rue de la rue",
   code_postal: 10000,
   ville: "Ville"
